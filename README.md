@@ -1,3 +1,3 @@
-<div align="center">
-  <img src="assets/header.svg" width="100%" alt="Zachary Scott Profile"/>
-</div>
+<p align="center">
+  <img src="assets/profile.svg" width="100%" alt="Zachary Scott"/>
+</p>
