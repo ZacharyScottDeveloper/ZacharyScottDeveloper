@@ -39,7 +39,7 @@
   </g>
 
   <circle cx="600" cy="110" r="52" fill="#08111F" opacity=".9"/>
-  <image href="favicon.ico" x="548" y="58" width="104" height="104"/>
+  <image href="https://raw.githubusercontent.com/ZacharyScottDeveloper/ZacharyScottDeveloper/main/assets/favicon.ico" x="548" y="58" width="104" height="104"/>
 
   <text x="600" y="235" text-anchor="middle" class="t">Zachary Scott</text>
   <text x="600" y="280" text-anchor="middle" class="s">Designer • Developer • Creative Thinker</text>
@@ -77,18 +77,18 @@
   <text x="70" y="1210" class="h">FEATURED PROJECTS</text>
 
   <rect x="70" y="1230" width="1060" height="250" rx="24" fill="#0B1220" stroke="#38BDF8" stroke-opacity=".25"/>
-  <image href="opengraph.png" x="70" y="1230" width="1060" height="250" preserveAspectRatio="xMidYMid slice" clip-path="url(#round)"/>
+  <image href="https://raw.githubusercontent.com/ZacharyScottDeveloper/ZacharyScottDeveloper/main/assets/opengraph.png" x="70" y="1230" width="1060" height="250" preserveAspectRatio="xMidYMid slice" clip-path="url(#round)"/>
   <rect x="70" y="1230" width="1060" height="250" rx="24" fill="#000814" opacity=".35"/>
   <text x="100" y="1450" font-family="Segoe UI" font-size="30" font-weight="700" fill="#fff">zescott.com</text>
   <text x="100" y="1478" class="sm">Portfolio • Creative UI • Experimental Web Experiences</text>
 
   <rect x="70" y="1510" width="510" height="230" rx="22" fill="#0B1220" stroke="#38BDF8" stroke-opacity=".25"/>
-  <image href="roomba.gif" x="90" y="1530" width="470" height="120" preserveAspectRatio="xMidYMid slice"/>
+  <image href="https://raw.githubusercontent.com/ZacharyScottDeveloper/ZacharyScottDeveloper/main/assets/roomba.gif" x="90" y="1530" width="470" height="120" preserveAspectRatio="xMidYMid slice"/>
   <text x="90" y="1685" font-family="Segoe UI" font-size="24" font-weight="700" fill="#fff">Virtual Roomba</text>
   <text x="90" y="1712" class="sm">Autonomous vacuum simulation in Python.</text>
 
   <rect x="620" y="1510" width="510" height="230" rx="22" fill="#0B1220" stroke="#A78BFA" stroke-opacity=".25"/>
-  <image href="pixelart.gif" x="640" y="1530" width="470" height="120" preserveAspectRatio="xMidYMid slice"/>
+  <image href="https://raw.githubusercontent.com/ZacharyScottDeveloper/ZacharyScottDeveloper/main/assets/pixelart.gif" x="640" y="1530" width="470" height="120" preserveAspectRatio="xMidYMid slice"/>
   <text x="640" y="1685" font-family="Segoe UI" font-size="24" font-weight="700" fill="#fff">Pixel Art Maker</text>
   <text x="640" y="1712" class="sm">Live image processing & pixel scaling.</text>
 
