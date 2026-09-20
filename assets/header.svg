@@ -1,0 +1,121 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+      <animate attributeName="x1" values="-1;1;-1" dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;2;0" dur="16s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+      <animate attributeName="x1" values="0;1;0" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;2;1" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="26" fill="url(#bg)"/>
+
+  <!-- animated grid -->
+  <g stroke="#38BDF8" stroke-opacity="0.08">
+    <g>
+      <line x1="0" y1="40" x2="1200" y2="40"/>
+      <line x1="0" y1="90" x2="1200" y2="90"/>
+      <line x1="0" y1="140" x2="1200" y2="140"/>
+      <line x1="0" y1="190" x2="1200" y2="190"/>
+      <line x1="0" y1="240" x2="1200" y2="240"/>
+      <line x1="0" y1="290" x2="1200" y2="290"/>
+    </g>
+
+    <g>
+      <line x1="80" y1="0" x2="80" y2="320"/>
+      <line x1="240" y1="0" x2="240" y2="320"/>
+      <line x1="400" y1="0" x2="400" y2="320"/>
+      <line x1="560" y1="0" x2="560" y2="320"/>
+      <line x1="720" y1="0" x2="720" y2="320"/>
+      <line x1="880" y1="0" x2="880" y2="320"/>
+      <line x1="1040" y1="0" x2="1040" y2="320"/>
+    </g>
+  </g>
+
+  <!-- floating particles -->
+  <g fill="#7DD3FC">
+    <circle cx="920" cy="70" r="3">
+      <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1030" cy="180" r="2">
+      <animate attributeName="opacity" values="1;0;1" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1120" cy="120" r="2.5">
+      <animate attributeName="opacity" values="0;1;0" dur="4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- name -->
+  <text x="70" y="105"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="48"
+        font-weight="700"
+        fill="#FFFFFF">
+    Zachary Scott
+  </text>
+
+  <!-- terminal -->
+  <rect x="70" y="130" width="470" height="42" rx="8" fill="#020617" opacity="0.9"/>
+
+  <circle cx="92" cy="151" r="4" fill="#EF4444"/>
+  <circle cx="108" cy="151" r="4" fill="#F59E0B"/>
+  <circle cx="124" cy="151" r="4" fill="#22C55E"/>
+
+  <text x="145" y="157"
+        font-family="Consolas, monospace"
+        font-size="18"
+        fill="#7DD3FC">
+    > We learn by doing
+  </text>
+
+  <rect x="350" y="144" width="9" height="16" fill="#7DD3FC">
+    <animate attributeName="opacity"
+             values="1;1;0;0;1"
+             dur="1s"
+             repeatCount="indefinite"/>
+  </rect>
+
+  <!-- subtitle -->
+  <text x="70" y="205"
+        font-family="Segoe UI, Arial, sans-serif"
+        font-size="22"
+        fill="#CBD5E1">
+    Experimental Web Experiences • JavaScript • Python
+  </text>
+
+  <!-- animated bars -->
+  <g filter="url(#glow)">
+    <rect x="70" y="235" width="180" height="6" rx="3" fill="url(#accent)">
+      <animate attributeName="width" values="140;200;140" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="270" y="235" width="90" height="6" rx="3" fill="#818CF8" opacity="0.75">
+      <animate attributeName="width" values="60;120;60" dur="3s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="380" y="235" width="130" height="6" rx="3" fill="#38BDF8" opacity="0.4">
+      <animate attributeName="width" values="100;150;100" dur="5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+</svg>
