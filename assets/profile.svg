@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1900" viewBox="0 0 1200 1900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050816"/>
+      <stop offset="55%" stop-color="#0A1030"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <radialGradient id="p" cx="20%" cy="8%" r="70%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity=".45"/>
+      <stop offset="100%" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b" cx="82%" cy="28%" r="65%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity=".35"/>
+      <stop offset="100%" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0%" stop-color="#7DD3FC"/>
+      <stop offset="100%" stop-color="#D8B4FE"/>
+    </linearGradient>
+    <clipPath id="round"><rect x="70" y="1230" width="1060" height="250" rx="24"/></clipPath>
+    <style><![CDATA[
+      .t{font:700 78px 'Segoe UI',Arial;fill:#fff}
+      .s{font:400 26px 'Segoe UI',Arial;fill:#D1D5DB}
+      .h{font:700 30px 'Segoe UI',Arial;fill:#fff}
+      .b{font:400 22px 'Segoe UI',Arial;fill:#D1D5DB}
+      .sm{font:400 18px 'Segoe UI',Arial;fill:#9CA3AF}
+      .q{font:italic 36px Georgia;fill:#fff}
+    ]]></style>
+  </defs>
+  <rect width="1200" height="1900" fill="url(#bg)"/>
+  <circle cx="210" cy="120" r="360" fill="url(#p)"/>
+  <circle cx="940" cy="300" r="340" fill="url(#b)"/>
+  <g fill="#fff">
+    <circle cx="120" cy="80" r="2"><animate attributeName="opacity" values=".2;1;.2" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="1010" cy="110" r="2"><animate attributeName="opacity" values="1;.2;1" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="180" cy="260" r="1.5"><animate attributeName="opacity" values=".3;1;.3" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="980" cy="480" r="2.5"><animate attributeName="opacity" values="1;.4;1" dur="2.8s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <circle cx="600" cy="110" r="52" fill="#08111F" opacity=".9"/>
+  <image href="favicon.ico" x="548" y="58" width="104" height="104"/>
+
+  <text x="600" y="235" text-anchor="middle" class="t">Zachary Scott</text>
+  <text x="600" y="280" text-anchor="middle" class="s">Designer • Developer • Creative Thinker</text>
+  <rect x="390" y="305" width="420" height="6" rx="3" fill="url(#accent)">
+    <animate attributeName="width" values="280;420;280" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <rect x="330" y="350" width="540" height="48" rx="10" fill="#030712" opacity=".92"/>
+  <circle cx="355" cy="374" r="4" fill="#EF4444"/>
+  <circle cx="371" cy="374" r="4" fill="#F59E0B"/>
+  <circle cx="387" cy="374" r="4" fill="#22C55E"/>
+  <text x="405" y="381" font-family="Consolas" font-size="20" fill="#7DD3FC">&gt; We learn by doing</text>
+  <rect x="650" y="364" width="8" height="18" fill="#7DD3FC"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+
+  <text x="600" y="470" text-anchor="middle" font-family="Segoe UI" font-size="28" font-weight="700" fill="#fff">Welcome to my little corner of the internet.</text>
+  <text x="600" y="510" text-anchor="middle" class="b">Brisbane-based hobbyist software developer focused on experimental web experiences.</text>
+  <text x="600" y="550" text-anchor="middle" class="b">👉 Check out zescott.com to learn more about me.</text>
+
+  <rect x="350" y="580" width="500" height="64" rx="32" fill="#0B1220" stroke="#7DD3FC" stroke-opacity=".4"/>
+  <text x="600" y="620" text-anchor="middle" font-family="Segoe UI" font-size="24" font-weight="700" fill="#7DD3FC">zescott.com</text>
+
+  <text x="70" y="730" class="q">“We learn by doing.”</text>
+  <text x="72" y="768" class="sm">— John Dewey</text>
+  <rect x="70" y="795" width="1060" height="2" fill="url(#accent)" opacity=".35"/>
+
+  <text x="70" y="850" class="h">MY PHILOSOPHY</text>
+  <text x="70" y="895" class="b">I don't think programming is about remembering everything you've ever written.</text>
+  <text x="70" y="930" class="b">If I build an incredible project today and forget how I made it next year,</text>
+  <text x="70" y="965" class="b">that doesn't make the achievement any less real.</text>
+  <text x="70" y="1015" class="b">Before I started building it, I didn't know how to build it either.</text>
+  <text x="70" y="1050" class="b">The valuable skill isn't memorising functions or algorithms.</text>
+  <text x="70" y="1085" class="b">It's knowing I can experiment, fail, rebuild, and figure it out again.</text>
+  <text x="70" y="1140" font-family="Segoe UI" font-size="24" font-weight="700" fill="#7DD3FC">Programming is confidence in learning.</text>
+
+  <text x="70" y="1210" class="h">FEATURED PROJECTS</text>
+
+  <rect x="70" y="1230" width="1060" height="250" rx="24" fill="#0B1220" stroke="#38BDF8" stroke-opacity=".25"/>
+  <image href="opengraph.png" x="70" y="1230" width="1060" height="250" preserveAspectRatio="xMidYMid slice" clip-path="url(#round)"/>
+  <rect x="70" y="1230" width="1060" height="250" rx="24" fill="#000814" opacity=".35"/>
+  <text x="100" y="1450" font-family="Segoe UI" font-size="30" font-weight="700" fill="#fff">zescott.com</text>
+  <text x="100" y="1478" class="sm">Portfolio • Creative UI • Experimental Web Experiences</text>
+
+  <rect x="70" y="1510" width="510" height="230" rx="22" fill="#0B1220" stroke="#38BDF8" stroke-opacity=".25"/>
+  <image href="roomba.gif" x="90" y="1530" width="470" height="120" preserveAspectRatio="xMidYMid slice"/>
+  <text x="90" y="1685" font-family="Segoe UI" font-size="24" font-weight="700" fill="#fff">Virtual Roomba</text>
+  <text x="90" y="1712" class="sm">Autonomous vacuum simulation in Python.</text>
+
+  <rect x="620" y="1510" width="510" height="230" rx="22" fill="#0B1220" stroke="#A78BFA" stroke-opacity=".25"/>
+  <image href="pixelart.gif" x="640" y="1530" width="470" height="120" preserveAspectRatio="xMidYMid slice"/>
+  <text x="640" y="1685" font-family="Segoe UI" font-size="24" font-weight="700" fill="#fff">Pixel Art Maker</text>
+  <text x="640" y="1712" class="sm">Live image processing & pixel scaling.</text>
+
+  <text x="70" y="1785" class="h">TECH I ENJOY</text>
+  <g transform="translate(70 1810)">
+    <rect width="56" height="56" rx="14" fill="#F7DF1E"/><text x="28" y="36" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700">JS</text>
+  </g>
+  <g transform="translate(145 1810)">
+    <rect width="56" height="56" rx="14" fill="#3776AB"/><text x="28" y="36" text-anchor="middle" font-family="Arial" font-size="16" font-weight="700" fill="#FFD43B">Py</text>
+  </g>
+  <g transform="translate(220 1810)">
+    <rect width="56" height="56" rx="14" fill="#E34F26"/><text x="28" y="36" text-anchor="middle" font-family="Arial" font-size="16" font-weight="700" fill="#fff">HTML</text>
+  </g>
+  <g transform="translate(295 1810)">
+    <rect width="56" height="56" rx="14" fill="#1572B6"/><text x="28" y="36" text-anchor="middle" font-family="Arial" font-size="16" font-weight="700" fill="#fff">CSS</text>
+  </g>
+  <g transform="translate(370 1810)">
+    <rect width="56" height="56" rx="14" fill="#F05032"/><text x="28" y="36" text-anchor="middle" font-family="Arial" font-size="16" font-weight="700" fill="#fff">Git</text>
+  </g>
+  <g transform="translate(445 1810)">
+    <rect width="56" height="56" rx="14" fill="#007ACC"/><text x="28" y="36" text-anchor="middle" font-family="Arial" font-size="14" font-weight="700" fill="#fff">VS</text>
+  </g>
+
+  <rect x="620" y="1780" width="510" height="90" rx="18" fill="#0B1220" stroke="#38BDF8" stroke-opacity=".2"/>
+  <text x="640" y="1812" font-family="Segoe UI" font-size="18" font-weight="700" fill="#fff">ABOUT</text>
+  <text x="640" y="1838" font-family="Segoe UI" font-size="15" fill="#D1D5DB">Age: 14 • Almost straight A's • McDonald's Crew</text>
+  <text x="640" y="1860" font-family="Segoe UI" font-size="15" fill="#D1D5DB">Open to fun collaborations (not long-term work).</text>
+</svg>
